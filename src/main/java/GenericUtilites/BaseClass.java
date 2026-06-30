@@ -35,7 +35,7 @@ public class BaseClass{
 	@BeforeSuite
 	public void BfConfig()
 	{
-		System.out.println("-------Database Connection Successfull---------");
+		System.out.println("-------Database Connection Successfull not connected---------");
 		
 	}
 	
