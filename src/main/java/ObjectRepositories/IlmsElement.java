@@ -15,8 +15,9 @@ public class IlmsElement extends WebDriverUtility {
 
 
 	//Click on iLMs 
-    @FindBy(xpath="//a[@class='large__body__regular p2 d-flex align-center justify-center active' and  text()='ILMs'] ")
+    @FindBy(xpath="//*[@id=\"root\"]/div/header/div[1]/div[3]/a[1]'] ")
     private WebElement iLMsClass;
+    
     
     // Select 
 

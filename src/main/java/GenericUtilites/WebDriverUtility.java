@@ -57,7 +57,7 @@ public class WebDriverUtility {
     	   wait.until(ExpectedConditions.visibilityOf(element));
     	}
     /**
-     * This method will wait untill the element becomes Clickble 
+     * This method will wait untill the element becomes Clickable 
      *
      */
     public void waitForElementToBeClickable(WebDriver driver , WebElement element)
@@ -187,7 +187,7 @@ public class WebDriverUtility {
 	}
 	
 	/*
-	 * This method will handle frame based on webelement
+	 * This method will handle frame based on WebElement
 	 */
 	
 	public void handleFrame(WebDriver driver, WebElement element ) {

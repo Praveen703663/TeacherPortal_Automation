@@ -112,7 +112,7 @@ public class BaseClass{
 	@AfterClass
 	public void AfterClassCofig()
 	{
-		driver.quit();
+		//	driver.quit();
 		System.out.println("-----Browser Closed Successfull----");
 	}
 	
